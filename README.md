@@ -21,11 +21,12 @@ AGI_Daily_YYYYmmdd-HHMM.csv
 
 ```shell
 cd /your path here/
-git pull origin master
-git add .
+git config credential.helper store #第一次需要執行此行
+git pull
 python3 AGI_Daily_DWer.py
-git commit -m "Schedule data update."
-git push origin master
+git add .
+git commit -a -m "Scheduled Commit: `date`"
+git push
 ```
 
 其中 [`AGI_Daily_DWer.py`](AGI_Daily_DWer.py) 為抓取之 Python 程式碼。
