@@ -1,7 +1,6 @@
 
 import os
 import datetime
-import pathlib
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
