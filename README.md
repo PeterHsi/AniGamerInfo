@@ -22,7 +22,7 @@ AGI_Daily_YYYYmmdd-HHMM.csv
 ```shell
 cd /your path here/
 git pull origin master
-git add -i
+git add .
 python3 AGI_Daily_DWer.py
 git commit -m "Schedule data update."
 git push origin master
