@@ -29,11 +29,11 @@ git commit -a -m "Scheduled Commit: `date`"
 git push
 ```
 
-其中 [`AGI_Daily_DWer.py`](AGI_Daily_DWer.py) 為抓取之 Python 程式碼。
+其中 [`AGI_Daily_DWer.py`](AGI_Daily_DWer.py) 為抓取之 Python 程式碼，此指令在執行後會一併上傳到此 repo。
 
 ## 已知問題(尚未解決工作)
 
-- [ ] `AGI_Daily_DWer.py` 所有資料會重複抓取兩次(汗)
+- [x] `AGI_Daily_DWer.py` 所有資料會重複抓取兩次(汗)
 - [ ] 需要每週統整檔案
 - [ ] 前人自行統計之往期需要匯入(希望能與批踢踢西洽版大大洽談資料引用)
 - [ ] 自動排程仍須研究(目前個人只會用設定的方式執行)
