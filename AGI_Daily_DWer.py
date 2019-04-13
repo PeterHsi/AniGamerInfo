@@ -33,6 +33,7 @@ AnimeInfo = pd.DataFrame(
      })
 AnimeInfo['date'] = datetime.datetime.now().strftime("%Y/%m/%d %H:%M:%S")
 AnimeInfo.drop_duplicates(inplace = True)
+AnimeInfo = AnimeInfo[['title', 'vol', 'update', 'number', 'date']]
 
 tsp = datetime.datetime.now().strftime("%Y%m%d-%H%M")
 if not os.path.exists('DailyData/'):
