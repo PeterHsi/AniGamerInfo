@@ -1,5 +1,7 @@
 # AniGamerInfo
 
+<p class="callout danger">由於專案使用之 NAS 屢遭攻擊與勒索，本人不堪其擾，故關閉 NAS，停止定期更新數據！</p>
+
 此專案將自動抓取[巴哈動畫瘋](https://ani.gamer.com.tw)官網新番觀看數並統計，統計檔案將以 `.csv`下載入 [/DailyData](/DailyData) 資料夾，命名規則為：
 
 ```
